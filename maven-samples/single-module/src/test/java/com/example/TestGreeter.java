@@ -24,5 +24,31 @@ public class TestGreeter {
     assertThat(greeter.greet(someone), containsString(someone));
   }
 
+  @Test
+  public void greetShouldIncludeGreetingPhrase() {
+    String someone = "World";
+
+    assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
+  }
+
+  @Test
+  public void greetShouldIncludeGreetingMessage() {
+    String someone = "World, Thanks you making me Happy";
+
+    assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
+  }
   
+  @Test
+  public void greetShouldIncludeGreetingNewLocal() {
+    String someone = "elbaphomettu";
+
+    assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
+  }
+  
+  @Test
+  public void greetShouldIncludeGreetingPlease() {
+    String someone = "for with the sign of the pentagram";
+
+    assertThat(greeter.greet(someone).length(), is(greaterThan(someone.length())));
+  }
 }
