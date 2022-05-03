@@ -8,10 +8,9 @@ job('First-Maven-Project-Via-DSL') {
     }
     steps {
         maven{
-            goals('clean')
-            goals('package')
+            goals('clean package')
             rootPOM('maven-samples/single-module/pom.xml')
-            localRepository(LocalRepositoryLocation.LOCAL_TO_WORKSPACE))
+            localRepository(LocalRepositoryLocation.LOCAL_TO_WORKSPACE)
         }
     }
     publishers {
