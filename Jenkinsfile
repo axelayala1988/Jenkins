@@ -27,5 +27,10 @@ pipeline {
                         echo "Deploying in Production Environment"
                   }
             }
+            stage('Sample') {
+                  steps {
+                        echo "This is just a test"
+                  }
+            }
       }
 }
