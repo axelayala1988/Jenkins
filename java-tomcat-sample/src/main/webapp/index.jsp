@@ -8,10 +8,10 @@
     And now, will this trigger the build step automatically?
     I hope it does
   </p>
-  <div style="background-color:silver;">
-    <p>And now for the actual test, deployed using Pipelines and Jenkinsfile</p>
-  </div>
   <h1>Hola morra, eres lechon</h>
   <h1>A que tu mas, toda lechon tonchi</h>
+  <div>
+    <p>And now for the actual test, deployed using Pipelines and Jenkinsfile</p>
+  </div>
 </body>
 </html>
