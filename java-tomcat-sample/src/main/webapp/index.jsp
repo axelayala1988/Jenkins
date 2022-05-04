@@ -9,7 +9,7 @@
     I hope it does
   </p>
   <div style="background-color:silver;">
-    And now for the actual test, deployed using Pipelines and Jenkinsfile
+    <p>And now for the actual test, deployed using Pipelines and Jenkinsfile</p>
   </div>
   <h1>Hola morra, eres lechon</h>
   <h1>A que tu mas, toda lechon tonchi</h>
