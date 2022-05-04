@@ -8,7 +8,7 @@
     And now, will this trigger the build step automatically?
     I hope it does
   </p>
-  <div style="background-color:silver>
+  <div style="background-color:silver;">
     And now for the actual test, deployed using Pipelines and Jenkinsfile
   </div>
   <h1>Hola morra, eres lechon</h>
