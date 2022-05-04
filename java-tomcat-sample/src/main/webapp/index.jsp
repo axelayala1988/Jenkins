@@ -6,6 +6,7 @@
     This is just a text to try something new.
     Ahora algo mas
     And now, will this trigger the build step automatically?
+    I hope it does
   </p>
   <div style="background-color:silver>
     And now for the actual test, deployed using Pipelines and Jenkinsfile
