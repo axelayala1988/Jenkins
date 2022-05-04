@@ -3,11 +3,7 @@ pipeline {
     stages {
         stage('Build Application') {
             steps {
-                maven{
-                    goals('clean package')
-                    rootPOM('maven-samples/single-module/pom.xml')
-                    mavenInstallation('LocalMaven')
-                    }
+                sh 'mvn -f java-tomcat-sample/pom.xml clean package'
             }
             post {
                 success {
